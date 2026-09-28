@@ -168,7 +168,7 @@ class GameView(context: Context): View(context) {
         addXp(score*3)
         save()
         screen=Screen.OVER
-        if(soundOn)sound.startTone(ToneGenerator.TONE_NACK,120)
+        if(soundOn)sound.startTone(ToneGenerator.TONE_PROP_NACK,120)
     }
 
     private fun background(c:Canvas) {
